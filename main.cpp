@@ -20,22 +20,28 @@ int main(int argc, char *argv[]) {
 
         if (colA == rowB) {
             // generating matrix A
+            fprintf(stdout, "Matrix A = \n");
             int A[rowA][colA];
             int i,j;
             for (i=0; i<rowA; i++) {
                 for (i=0; j<colA; j++) {
                     A[i][j] = i+j;
+                    fprintf(stdout, "%d", A[i][j]);
                 }
+                fprintf(stdout, "\n");
             }
 
             // generating matrix B
+            fprintf(stdout, "Matrix B = \n");
             int B[rowB][colB];
             int k,h;
             for (k=0; k<rowB; k++) {
                 for (h=0; h<colB; h++) {
                     B[k][h] = (k+h)*2;
+                    fprintf(stdout, "%d", B[m][n]);
                 }
-            }
+                 fprintf(stdout, "\n");
+           }
 
             // calculate matrix C
             int colC = colB;
