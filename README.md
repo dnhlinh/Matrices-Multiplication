@@ -11,5 +11,5 @@ This program allow you to enter the size of the 2 matrices, with the rule:
 - Number in matrix B has the value of the sum of its position multiplied by 2
 
 Note:
-- main.cpp is a more simple
-- using-pointer.cpp is a more advanced one using pointer
+- main.cpp is a more simple version
+- using-pointer.cpp is a more advanced version using pointer
