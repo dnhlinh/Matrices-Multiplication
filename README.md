@@ -9,3 +9,7 @@ https://www.mathsisfun.com/algebra/matrix-multiplying.html
 This program allow you to enter the size of the 2 matrices, with the rule:
 - Number in matrix A has the value of the sum of its position
 - Number in matrix B has the value of the sum of its position multiplied by 2
+
+Note:
+- main.cpp is a more simple
+- using-pointer.cpp is a more advanced one using pointer
